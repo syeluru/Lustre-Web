@@ -1,0 +1,67 @@
+<nav class="navbar navbar-dark bg-inverse bg-inverse-custom navbar-fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src='img/Logo_Blue.png' height=auto width='100px'></img>
+      <span class="sr-only">Land.io</span>
+    </a>
+    <a class="navbar-toggler hidden-md-up pull-xs-right" data-toggle="collapse" href="#collapsingNavbar" aria-expanded="false" aria-controls="collapsingNavbar">
+    &#9776;
+  </a>
+    <div id="collapsingNavbar" class="collapse navbar-toggleable-custom" role="tabpanel" aria-labelledby="collapsingNavbar">
+      <ul class="nav navbar-nav pull-xs-right">
+        <li class="nav-item nav-item-toggable">
+          <a class="nav-link" href="./index-carousel.html">ABOUT</a>
+        </li>
+        <li class="nav-item nav-item-toggable">
+          <a class="nav-link" href="./index-carousel.html">SERVICES</a>
+        </li>
+        <li class="nav-item nav-item-toggable">
+          <a class="nav-link" href="./index-carousel.html">PORTFOLIO</a>
+        </li>
+        <li class="nav-item nav-item-toggable">
+          <a class="nav-link" href="./index-carousel.html">CONTACT</a>
+        </li>
+        <li class="nav-item nav-item-toggable hidden-md-up">
+          <form class="navbar-form">
+            <input class="form-control navbar-search-input" type="text" placeholder="Type your search &amp; hit Enter&hellip;">
+          </form>
+        </li>
+        <li class="nav-item dropdown nav-dropdown-search hidden-sm-down">
+          <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="icon-search"></span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-search" aria-labelledby="dropdownMenu1">
+            <form class="navbar-form">
+              <input class="form-control navbar-search-input" type="text" placeholder="Type your search &amp; hit Enter&hellip;">
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section
+================================================== -->
+
+<header class="jumbotron parallax bg-inverse text-xs-center center-vertically" id='landing' role="banner">
+  <div class="container">
+    <h1>WEBSITES: POLISHED. RESPONSIVE. YOURS.</h1></br>
+    <h5 class="m-b-3 sub-text">A personalized website for you or your small business.<br/><em>Today.</em><h5>
+    <a class="btn btn-secondary-outline m-b-1" href="http://tympanus.net/codrops/?p=25217" role="button"><i class="fa fa-angle-down 3x"></i>Learn More</a>
+  </div>
+</header>
+
+<!-- Intro
+================================================== -->
+
+<section class="section-intro bg-faded text-xs-center">
+  <div class="container">
+    <h3 class="wp wp-1">Create your beautiful website, the way you want it, with Lustre.</h3>
+    <div class='more-text'>
+    <p class="lead wp wp-2">Once upon a time, we were in your shoes. We spent countless hours learning our craft. Today, we want to share what we know to make the website we know you've been dreaming of.
+      Craft memorable, personal experiences you will be proud to show your customers, recruiters, and the world.</p>
+    </div>
+    <img src="img/mock.png" alt="iPad mock" class="img-fluid wp wp-3">
+  </div>
+</section>
